@@ -1,0 +1,521 @@
+html, body {
+    margin:0;
+    padding: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+
+}
+
+/* Home Page */
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+/* Menu Bar*/
+.header {
+    height: 120px;
+    background-color: #f59f1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 150px;
+   
+
+
+}
+
+.logo img {
+    margin-left: 150px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+   
+    
+}
+
+/* Hero Section*/
+.hero {
+
+    background-image: url(./images/hero-image.jpg) ;
+    width: 100%;
+    height:800px;
+    position: relative;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.overlayText {
+    font-size: 40px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 120px;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+
+/* Text for all*/   
+.title {
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.text {
+    font-size: 30px;
+    
+    
+}
+.content {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    
+}
+
+/* Everyday Categories */
+.cat {
+    background-color: white;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.galleryCat {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+   
+    
+}
+.catBox {
+    width: 100%;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+.catBoxText {
+    font-size: 25px;
+    font-family: 'Hind Siliguri', sans-serif;
+    padding: 20px;
+}
+
+.catFirst {
+    background-image: url(./images/breakfast-ideas.jpg);
+    width: 90%;
+    height:400px;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+  
+    display: flex;
+}
+
+.catMiddle {
+    background-image: url(./images/vegetarian-ideas.jpg);
+    width: 90%;
+    height:400px;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+   
+    
+}
+
+.catEnd {
+    background-image: url(./images/cold-weather-dinners.jpeg);
+    width: 90%;
+    height:400px;
+    background-size: cover;
+    display: flex;
+    background-position: center;    
+}
+
+
+/*Healty Recipes of the Week*/
+.rcp {
+    background-color: lightgray;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.galleryRcp {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+}
+
+.rcpBox {
+    width: 400px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    
+   
+       
+}
+.rcpBoxText {
+    width: 320px;
+    height: 70px;
+    font-size: 25px;
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.rcpFirst {
+    background-image: url(./images/fajita-peppers.jpeg);
+    width: 80%;
+    height:350px;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    box-shadow: 10 10px white;
+
+ 
+   
+   
+     
+}
+.rcpMiddle {
+    background-image: url(./images/muffins.jpeg);
+    width: 80%;
+    height:350px;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    
+
+   
+   
+    
+}
+
+.rcpThird {
+    background-image: url(./images/eggplant-parmesan.jpg);
+    width: 80%;
+    height:350px;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    
+}
+
+.rcpEnd{
+    background-image: url(./images/teriyaki-chicken.jpeg);
+    width: 80%;
+    height:350px;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+
+}
+
+
+/* Wher to Eat*/
+.where {
+   
+    background-color: white;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+.galleryWhere {
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px; 
+    
+}
+
+.whereBox {
+    width: 100%;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.whereBoxText {
+    font-size: 25px;
+    font-family: 'Hind Siliguri', sans-serif;
+    padding: 20px;
+}
+
+.whereFirst {
+    background-image: url(./images/bengal-burger.jpg);
+    width: 90%;
+    height:400px;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    border: solid 10px lightgray;
+
+     
+}
+.whereMiddle {
+    background-image: url(./images/pizza.jpeg);
+    width: 90%;
+    height:400px;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    border: solid 10px lightgray;
+  
+}
+
+.whereEnd {
+    background-image: url(./images/fajita-peppers.jpeg);
+    width: 90%;
+    height:400px;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    border: solid 10px lightgray;
+    
+}
+
+
+
+
+
+
+/*Recipe Page */
+
+.repHero{
+    background-image: url(./images/burger.jpg) ;
+    width: 100%;
+    height:800px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-position: center;
+}
+
+/* Description  Section*/
+.descSection {
+    padding: 30px 80px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    
+}
+.descTitle {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    
+}
+.descContainer {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.descBox {
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+}
+
+.desc {
+    display: block;
+    font-size: 17px;
+}
+
+/* Review Section*/
+
+.revSection {
+   height: 800px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+  }
+  .revTitle {
+      font-size: 40px;
+      padding-top: 80px;
+      font-family: 'Montserrat', sans-serif;
+  }
+  .revRating {
+    
+      display: flex;
+      flex-direction: row;
+      padding: 20px;
+     
+  }
+  .star {
+      margin-right: 8px;
+  }
+  .revButton {
+      padding: 15px;
+      display: flex;
+      flex-direction: row;
+  }
+  .saveButton {
+      width: 120px;
+      height: 35px;
+      border-radius: 20px;
+      background-color: rgb(175, 36, 36);
+      color:white;
+      border: none;
+      margin-right: 5px;
+  }
+  
+  .printButton {
+    border: black 2px solid;
+    width: 33px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 22px;
+    margin-left: 5px;
+  }
+  .revContent {
+      margin-top: 50px;
+      width: 70%;
+      height: 230px;
+      background-color: lightgray;
+      font-size: 35px;
+      font-weight: bolder;
+      display: flex;
+      text-align: center;
+      padding: 70px;
+
+      
+  }
+
+
+/* InstSection Section */
+.instSection {
+  
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    font-size: 22px; 
+    margin-left: 170px;  
+}
+.ingTitle {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.spiceTitle {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 35px;
+    
+}
+.directionTitle {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.instRight {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    
+}
+.timeText{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.instLeft {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+      
+}
+.spiceList {
+    margin-top: -20px;
+}
+
+/*Video Clip*/
+.videoSection {
+    background-image: url(./images/grunge_wall_@2X.png);
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.videoTitle {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px;
+}
+
+/*Footer Bar for both pages*/
+footer {
+    height: 120px;
+    background-color: #f59f1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      
+}
+  
+.copyRight {
+    margin-left: 150px;
+    font-size: 20px;
+}
+.footerNav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+  
+}
+.footerNav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 12px;
+    
+}
+
+
+
+
